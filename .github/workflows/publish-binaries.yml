@@ -23,6 +23,6 @@ jobs:
         goos: ${{ matrix.goos }}
         goarch: ${{ matrix.goarch }}
         goversion: "1.16"
-        project_path: "./cmd/main.go"
+        project_path: "cmd"
         binary_name: "helloworld"
         extra_files: LICENSE
